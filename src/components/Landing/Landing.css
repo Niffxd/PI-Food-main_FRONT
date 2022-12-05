@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Cheese;
+  src: url('../../assets/fonts/CheeseLemonade.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: center / cover no-repeat url('../../assets/images/landing.png');
+}
+
+.login-container {
+  width: 50vw;
+  height: 90vh;
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.login-container h1 {
+  font-family: "Cheese", serif;
+  font-size: 12em;
+  font-weight: lighter;
+  color: black;
+  line-height: 180px;
+}
+
+.login-container a {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 190px;
+}
+
+.button-container {
+  width: 220px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #dde6fa99;
+}
+
+.go-button{
+  background: #569a23;
+  width: 170px;
+  height: 65px;
+  color: #f1f0ec;
+  font-family: "Cheese", serif;
+  font-size: 2.3em;
+  font-weight: 100;
+  box-shadow: 4px 7px #233b7290;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.go-button:hover {
+  box-shadow: none;
+  margin-top: 10px !important;
+}

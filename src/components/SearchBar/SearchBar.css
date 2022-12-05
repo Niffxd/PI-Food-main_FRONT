@@ -1,0 +1,39 @@
+.searchbar-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search {
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  padding: 0 0 0 10px;
+}
+
+.input-search,
+.button-search {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.input-search:focus {
+  outline: none;
+}
+
+.button-search {
+  width: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px gray;
+}
+
+.button-search:hover {
+  box-shadow: none;
+  margin-top: 3px;
+}
+
+.search-button-img {
+  width: 100%;
+  padding: 4px;
+}

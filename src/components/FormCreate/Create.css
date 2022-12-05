@@ -1,0 +1,152 @@
+.form-container {
+  width: 1100px;
+  height: 710px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/images/form/table.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border: 1px solid grey;
+  border-radius: 40px;
+  box-shadow: 3px 3px grey;
+}
+
+.create-container {
+  width: 100%;
+  height: 95%;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.create-container .title {
+  width: 50%;
+  height: fit-content;
+  font-family: Cheese;
+  font-size: 4em;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+}
+
+.create-container form {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 110px;
+  
+}
+
+.data-recipe-container {
+  width: 100%;
+  height: 510px;
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-container,
+.diet-select-container {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  
+}
+
+.info-container label,
+.diet-select-container label {
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.info-container input,
+.info-container textarea {
+  margin: 0 50px 0 10px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.info-container input::-webkit-input-placeholder,
+.info-container textarea::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.info-container input:focus {
+  outline: none;
+}
+
+.steps-container {
+  height: 200px;
+  resize: none;
+}
+
+.diet-select-container {
+  width: 420px;
+  margin-right: 100px;
+  padding: 0;
+}
+
+.diets-icons-select {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.select-icons-diet {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.container-data-diet {
+  display: inherit;
+  width: 130px;
+  margin-left: 10px;
+}
+
+.container-data-diet label {
+  margin: auto 10px;
+}
+
+.img-diet {
+  width: 40px;
+}
+
+.send-form {
+  width: 220px;
+  align-self: center;
+  margin-left: -130px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 3px grey;
+}
+
+.send-form:hover {
+  margin-bottom: -3px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.health-score-input::-webkit-outer-spin-button,
+.health-score-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.health-score-input[type=number] {
+  -moz-appearance: textfield;
+}

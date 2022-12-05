@@ -1,0 +1,40 @@
+.paginated-links {
+  display: flex;
+  align-items: center;
+}
+
+.paginated-links h2 {
+  font-size: 1.2em;
+}
+
+
+#paginated-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+#paginated-list li button {
+  color: black;
+  border-radius: 7px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 3px 3px gray;
+  margin: 0 2px;
+}
+
+#paginated-list li button:hover {
+  box-shadow: none;
+  margin-top: 3px;
+}
+
+.select-filter:focus {
+  outline: none;
+}
+
+.active-navigation,
+.initial-activate {
+  background-color: #a8e191;
+}

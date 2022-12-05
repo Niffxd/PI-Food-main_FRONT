@@ -1,0 +1,21 @@
+.banner-container {
+  width: 530px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e0f2fe;
+  border-radius: 0 0 50px 0;
+}
+
+.logo-image-banner {
+  width: 120px;
+  padding: 10px;
+  justify-self: center;
+}
+
+.banner-container h1 {
+  font-family: Cheese;
+  font-weight: lighter;
+  font-size: 3.5em;
+  margin-left: 30px;
+}
