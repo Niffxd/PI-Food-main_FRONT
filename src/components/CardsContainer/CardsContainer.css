@@ -40,6 +40,8 @@
 }
 
 .loader-img {
+  align-self: center;
+  justify-self: center;
   margin-top: 100px;
   width: 500px;
 }
